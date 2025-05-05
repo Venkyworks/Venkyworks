@@ -20,8 +20,7 @@ public class LinkedListExample {
         String s="Hello";
         System.out.println(s);
         StringBuilder sb=new StringBuilder(s);
-        sb.reverse();
-        System.out.println(sb.toString());
+      
 
 
 
@@ -36,7 +35,8 @@ System.out.println(aaa);
 LinkedList<String> list1 = list.stream().collect(LinkedList::new, LinkedList::add, LinkedList::addAll);
 System.out.println(list1);
 
-
+sb.reverse();
+System.out.println(sb.toString());
 
 
  
